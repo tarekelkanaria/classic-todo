@@ -1,0 +1,41 @@
+.item {
+  background-color: #cbd5e180;
+  backdrop-filter: blur(10px);
+  border-radius: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+.completed {
+  background-color: #0d948880;
+}
+.item input {
+  border: none;
+  border-radius: 0.8rem;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  background-color: #e5e7eb;
+  text-transform: uppercase;
+  display: block;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  margin-inline: auto;
+  color: #831843;
+}
+.item .todo-complete {
+  color: #0d9488;
+}
+.item input:focus {
+  text-transform: unset;
+  color: unset;
+}
+.actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .actions {
+    flex-direction: column;
+  }
+}

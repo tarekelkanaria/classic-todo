@@ -1,0 +1,14 @@
+.main-header {
+  margin-bottom: 1.5rem;
+  background: radial-gradient(circle, #00d4ff 5%, #090979 76%, #020024 100%);
+}
+.title {
+  font-family: "Dancing Script", cursive;
+  font-size: 3.4rem;
+  padding: 2rem;
+  font-weight: bold;
+  letter-spacing: -0.4px;
+  word-spacing: -0.2rem;
+  text-align: center;
+  color: #831843;
+}

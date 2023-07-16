@@ -1,0 +1,38 @@
+.form-container {
+  max-width: 60rem;
+  background-color: #2563eb;
+  padding: 2rem;
+  border: 1px solid #831843;
+  margin-bottom: 2rem;
+  margin-inline: auto;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .form-container {
+    max-width: 100%;
+  }
+}
+.label-feild {
+  font-size: 2.4rem;
+  color: #991b1b;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.input-feild {
+  padding: 1rem 2rem;
+  background-color: #e5e7eb;
+  border-radius: 0.8rem;
+  margin-bottom: 2rem;
+}
+.input-feild input {
+  width: 96%;
+  border: none;
+  background-color: inherit;
+  padding: 0.4rem;
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+}
+.input-feild input:focus {
+  border-bottom: 2px solid #ebb002;
+}

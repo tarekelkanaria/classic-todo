@@ -1,0 +1,42 @@
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: #000000bf;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.message {
+  z-index: 2;
+  max-width: 50%;
+  background-color: #2563eb;
+  padding: 3rem;
+  border: 1px solid #831843;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .message {
+    max-width: 100%;
+  }
+}
+.text {
+  background-color: #e5e7eb;
+  font-size: 2.4rem;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  color: #991b1b;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

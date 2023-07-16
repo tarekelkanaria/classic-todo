@@ -1,0 +1,8 @@
+.msg-container {
+  padding: 1rem;
+}
+.msg-container p {
+  font-size: 2rem;
+  color: #334155;
+  font-weight: bold;
+}
