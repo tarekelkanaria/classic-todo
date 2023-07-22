@@ -5,13 +5,13 @@ const TodosContext = createContext<TodosContextType>({
   todos: [],
   completedTodos: [],
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  addTodo: (text: string) => {},
+  addTodo: () => {},
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  removeTodo: (id: string) => {},
+  removeTodo: () => {},
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  completeTodo: (item: TodoData) => {},
+  completeTodo: () => {},
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  editTodo: (item: TodoData) => {},
+  editTodo: () => {},
 });
 
 const TodosContextProvider: React.FC<{ children: React.ReactNode }> = ({
